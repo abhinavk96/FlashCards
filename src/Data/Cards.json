@@ -1,0 +1,16 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "word": "Laconic",
+            "meaning" : "Brief and to the point; Effectively cut short.",
+            "example": "Jessica is so talkative that her sister thought the situation warrated conciseness and her being laconic."
+        },
+        {
+            "id" : 2,
+            "word": "insipid",
+            "meaning": "Lacking taste or flavor",
+            "example": "Too much sugar makes this otherwise delightfl fruit pie insipid."
+        }
+    ]
+}
