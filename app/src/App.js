@@ -43,17 +43,40 @@ class App extends Component {
   getRandomCard(currentCards) {
     return currentCards[Math.floor(Math.random()*currentCards.length)]
   }
+  getRandomColor(){
+    let colorCode = Math.floor(Math.random()*10)%4;
+    let name;
+    switch(colorCode){
+      case 0:
+      name="one";
+      break;
+      case 1:
+      name="two";
+      break;
+      case 2:
+      name="three";
+      break;
+      case 3:
+      name="four";
+      break;
+      default:
+      name="one";
+      break;
+    }
+    return name;
+
+  }
   updateCard(){
     const currentCards=this.state.cards;
     this.setState({
       currentCard: this.getRandomCard(currentCards)
     })
   }
-  render() {
+  render() {    
     return (
       <div className="App">
-        <div className="cardRow">
-          <Card word={this.state.currentCard.word} meaning={this.state.currentCard.meaning} example={this.state.currentCard.example}/>
+        <div className="container">
+          <Card word={this.state.currentCard.word} meaning={this.state.currentCard.meaning} example={this.state.currentCard.example} color={this.getRandomColor()}/>
         </div>
         <div className="buttonRow">
           <DrawButton drawCard={this.updateCard}/>

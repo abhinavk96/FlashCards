@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './Card.css';
 
 const Card = (props) => (
-    <div className="card-container">
-        <div className="card">
+    <div className="flip-container" >
+        <div className={"flippable "+props.color} >
             <div className="front">
                 <div className="word">{props.word}</div>
             </div>
