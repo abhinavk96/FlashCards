@@ -11,6 +11,12 @@
             "word": "insipid",
             "meaning": "Lacking taste or flavor",
             "example": "Too much sugar makes this otherwise delightfl fruit pie insipid."
+        },
+        {
+            "id" : 3,
+            "word": "pragmatic",
+            "meaning": "Concerned with practical matters",
+            "example":"After five years of war, both sides have found pragmatic ways to make peace with one another, as the bloodshed has grown viscous and brutal."
         }
     ]
 }
