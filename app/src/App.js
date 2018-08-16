@@ -4,34 +4,40 @@ import Card from './Card/Card';
 import DrawButton from './DrawButton/DrawButton';
 import './App.css';
 import { DB_CONFIG } from './Config/Firebase/db_config';
+import firebase from 'firebase/app';
+import 'firebase/database';
+import {init as firebaseInit} from 'firebase/firebase';
+
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.updateCard = this.updateCard.bind(this);
+    this.app = !firebase.apps.length ? firebase.initializeApp(DB_CONFIG) : firebase.app();
+    this.database = this.app.database().ref().child('cards'); 
     this.state={
-      cards:[{
-        id: '1',
-        word: 'Laconic',
-        meaning: 'Brief and to the point; Effectively cut short',
-        example: 'Jessica is so talkative that her sister thought the situation warrated conciseness and her being laconic.'
-      },
-      {
-        id: '2',
-        word: 'Insipid',
-        meaning : 'Lacking taste or flavor',
-        example: 'Too much sugar makes this otherwise delightfl fruit pie insipid.'
-      }
-    ],
+      cards:[],
       currentCard:{}
     }
   }
   componentWillMount(){
     const currentCards = this.state.cards;
-    this.setState({
-      cards: currentCards,
-      currentCard: this.getRandomCard(currentCards)
-    })
+    this.database.on('child_added', snap => {
+      console.log(1);
+      currentCards.push({
+        id: snap.key,
+        word: snap.val().word,
+        meaning: snap.val().meaning,
+        example: snap.val().example
+      });
+      this.setState({
+        cards: currentCards,
+        currentCard: this.getRandomCard(currentCards)
+      });
+    },
+  err=>{
+    console.log("The read failed: " + err.code);
+  })
   }
 
   getRandomCard(currentCards) {
