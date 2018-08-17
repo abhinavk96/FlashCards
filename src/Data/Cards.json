@@ -8,15 +8,57 @@
         },
         {
             "id" : 2,
-            "word": "insipid",
+            "word": "Insipid",
             "meaning": "Lacking taste or flavor",
             "example": "Too much sugar makes this otherwise delightfl fruit pie insipid."
         },
         {
             "id" : 3,
-            "word": "pragmatic",
+            "word": "Pragmatic",
             "meaning": "Concerned with practical matters",
             "example":"After five years of war, both sides have found pragmatic ways to make peace with one another, as the bloodshed has grown viscous and brutal."
-        }
+        },
+        {
+            "id": "4",
+            "word": "Iconoclast",
+            "meaning": "someone who attacks cherished beliefs or institutions",
+            "example": "He is often seen as a rebel, an iconoclast who follows his own rules."
+        },
+        {
+            "id": "5",
+            "word": "Arduous",
+            "meaning": "involving or requiring strenuous effort; difficult and tiring.",
+            "example": "In those days, a trip to the West was an arduous journey."
+        },
+        {
+            "id": "6",
+            "word": "Profligate",
+            "meaning": "recklessly extravagant or wasteful in use of resources",
+            "example": "Spending £13,000 on a handbag seems offensively profligate."
+        },
+        {
+            "id": "7",
+            "word": "Prosaic",
+            "meaning": "without interest, imagination, and excitement; dull;",
+            "example": "He asked if I'd got my black eye in a fight - I told him the prosaic truth that I'd banged my head on a door."
+        },
+        {
+            "id": "8",
+            "word": "Ameliorate",
+            "meaning": "to make a bad or unpleasant situation better",
+            "example": "Foreign aid is badly needed to ameliorate the effects of the drought."
+        },
+        {
+            "id": "9",
+            "word": "Obsequious",
+            "meaning": "too eager to praise or obey someone; excessively obedient",
+            "example": "She is embarrassingly obsequious to anyone in authority."
+        },
+        {
+            "id": "10",
+            "word": "Capricious",
+            "meaning": "likely to change, or reacting to a sudden desire or new idea",
+            "example": "The decision rejected the notion of an arbitrary and capricious power accruing to state securities commissioners."
+          }
     ]
 }
