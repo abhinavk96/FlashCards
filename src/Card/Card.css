@@ -205,6 +205,13 @@ body {
     background: #8eba43;
     border-color: #fbe19c;
   }
+  .nine .front {
+    background: #d8412f;
+  }
+  .nine .back {
+    background: #fcfdfe;
+    border-color: #000;
+  }
 
 
   
