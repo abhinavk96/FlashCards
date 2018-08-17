@@ -59,6 +59,31 @@
             "word": "Capricious",
             "meaning": "likely to change, or reacting to a sudden desire or new idea",
             "example": "The decision rejected the notion of an arbitrary and capricious power accruing to state securities commissioners."
-          }
+        },
+        {
+            "id": "11",
+            "word": "Fortuitous",
+            "meaning": "happening by chance rather than intention; fortunate",
+            "example": "The collapse of its rivals was a fortuitous opportunity for the company."
+        },
+        {
+            "id": "12",
+            "word": "Orthodox",
+            "meaning": "conforming to all the traditional beliefs, and religious practices; acceptable",
+            "example": "Orthodox strategies for socio-economic development in developing countries."
+        },
+        {
+            "id": "13",
+            "word": "Alacrity",
+            "meaning": "lively and cheerful readiness; eagerness",
+            "example": "I am sure that they will be accepted with alacrity, knowing my noble friend's expertise in such matters."
+        },
+        {
+            "id": "14",
+            "word": "Pellucid",
+            "meaning": "very clear and shining; very clear in meaning and easy to understand",
+            "example": "the pellucid light of a spring morning."
+        }
+        
     ]
 }
