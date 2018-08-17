@@ -44,7 +44,7 @@ class App extends Component {
     return currentCards[Math.floor(Math.random()*currentCards.length)]
   }
   getRandomColor(){
-    let colorCode = Math.floor(Math.random()*10)%4;
+    let colorCode = Math.floor(Math.random()*10)%8;
     let name;
     switch(colorCode){
       case 0:
@@ -58,6 +58,18 @@ class App extends Component {
       break;
       case 3:
       name="four";
+      break;
+      case 4:
+      name="five";
+      break;
+      case 5:
+      name="six";
+      break;
+      case 6:
+      name="seven";
+      break;
+      case 7:
+      name="eight";
       break;
       default:
       name="one";

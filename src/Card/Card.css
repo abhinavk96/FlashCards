@@ -169,6 +169,34 @@ body {
     background: #614804;
     border-color: #fbe19c;
   }
+  .five .front {
+    background: #6e6702;
+  }
+  .five .back {
+    background: #2e2300;
+    border-color: #fbe19c;
+  }
+  .six .front {
+    background: #ddbc95;
+  }
+  .six .back {
+    background: #b38867;
+    border-color: #cdcdc0;
+  }
+  .seven .front {
+    background: #283655;
+  }
+  .seven .back {
+    background: #1e1f26;
+    border-color: #4d648d;
+  }
+  .eight .front {
+    background: #e2dfa2;
+  }
+  .eight .back {
+    background: #ed5752;
+    border-color: #a1be95;
+  }
 
   
   .word {
