@@ -63,10 +63,12 @@ body {
     right: 0;
   }
   .flip-container {
-    perspective: 1000;
+    perspective: 1000px;
     margin: 10px;
     float: left;
     cursor: pointer;
+    box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+    border-radius: .375rem;
   }
   .flip-container .flippable {
     transition: 0.5s;
@@ -76,6 +78,8 @@ body {
   .flip-container:hover .flippable,
   .flip-container .hover .flippable {
     transform: rotateY(180deg);
+    box-shadow: none;
+    
   }
   .flip-container,
   .front,
@@ -109,6 +113,7 @@ body {
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
+
   }
   .front span {
     font-size: 20px;
@@ -151,11 +156,11 @@ body {
     border-color: #7aeea7;
   }
   .three .front {
-    background: #18b755;
+    background: #e9a7e6;
   }
   .three .back {
-    background: #063016;
-    border-color: #7aeea7;
+    background: #e03939;
+    border-color: #e3a5e9;
   }
   .four .front {
     background: #f3b50b;
