@@ -197,6 +197,14 @@ body {
     background: #ed5752;
     border-color: #a1be95;
   }
+  .nine .front {
+    background: #f9dc24;
+  }
+  .nine .back {
+    background: #8eba43;
+    border-color: #fbe19c;
+  }
+
 
   
   .word {
