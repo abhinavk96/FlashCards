@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Sawarabi+Mincho');
 
 html, body, #root, .cardRow{
     height:100%;
@@ -216,14 +217,18 @@ body {
   .meaning{
     position: absolute;
     top: 25%; left: 50%;
-    width: 100%;
-    
+    width: 90%;
+    font-family: 'Sawarabi Mincho', sans-serif;
+
     transform: translate(-50%,-25%);
   }
   .example{
     position: absolute;
-    width: 100%;
+    width: 90%;
     
     top: 75%; left: 50%;
     transform: translate(-50%,-75%);
+    font-family: 'Pacifico', cursive;
+
+    
   }
