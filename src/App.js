@@ -21,6 +21,7 @@ class App extends Component {
     }
   }
   componentWillMount(){
+    document.title="Flash Cards"
     const currentCards = this.state.cards;
     this.database.on('child_added', snap => {
       console.log(1);
