@@ -142,6 +142,13 @@ body {
     transition: all 0.4s ease-in-out;
     
   }
+  .zero .front {
+    background: #000b29;
+  }
+  .zero .back {
+    background: #d70026;
+    border-color: #f8f5f2;
+  }
   .one .front {
     background: #1189d1;
   }
@@ -205,13 +212,84 @@ body {
     background: #8eba43;
     border-color: #fbe19c;
   }
-  .nine .front {
+  .ten .front {
     background: #d8412f;
   }
-  .nine .back {
-    background: #fcfdfe;
+  .ten .back {
+    background: #f7cb3e;
     border-color: #000;
   }
+  .eleven .front {
+    background: #89da59;
+  }
+  .eleven .back {
+    background: #80bd9e;
+    border-color: #45b90f;
+  }
+  .twelve .front {
+    background: #021C1E;
+  }
+  .twelve .back {
+    background: #004445;
+    border-color: #6f9b8f;
+  }
+  .thirteen .front {
+    background: #375e97;
+  }
+  .thirteen .back {
+    background: #fb6542;
+    border-color: #ffbb00;
+  }
+  .fourteen .front {
+    background: #98dbc6;
+  }
+  .fourteen .back {
+    background: #5bc8ac;
+    border-color: #324851;
+  }
+  .fifteen .front {
+    background: #ec96a4;
+  }
+  .fifteen .back {
+    background: #dfe166;
+    border-color: #5d535e;
+  }
+  .sixteen .front {
+    background: #f0810f;
+  }
+  .sixteen .back {
+    background: #e6df44;
+    border-color: #e67913;
+  }
+  .seventeen .front {
+    background: #f52549;
+  }
+  .seventeen .back {
+    background: #fa6775;
+    border-color: #9bc01c;
+  }
+  .eighteen .front {
+    background: #258039;
+  }
+  .eighteen .back {
+    background: #f5be41;
+    border-color: #9bc01c;
+  }
+  .nineteen .front {
+    background: #cf3721;
+  }
+  .nineteen .back {
+    background: #31a9b8;
+    border-color: #f5be41;
+  }
+  .twenty .front {
+    background: #f70025;
+  }
+  .twenty .back {
+    background: #f7efe2;
+    border-color: #f9a603;
+  }
+  
 
 
   
