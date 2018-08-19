@@ -89,7 +89,7 @@ body {
     width:35vh;
     height: 40vh;
     text-align: center;
-    font-size: 40px;
+    font-size: 4vh;
     border-radius: 5px;
   }
   .front,
@@ -117,14 +117,14 @@ body {
 
   }
   .front span {
-    font-size: 20px;
+    font-size: 4vh;
     position: absolute;
     top: -30px;
     left: 10px;
     font-family: verdana;
   }
   .back {
-    font-size: 18px;
+    font-size: 2vh;
     border: 1px solid;
     font-family: Verdana;
     color: white;
