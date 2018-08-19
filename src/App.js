@@ -18,14 +18,15 @@ class App extends Component {
     this.database = this.app.database().ref().child('cards'); 
     this.state={
       cards:[],
-      currentCard:{}
+      currentCard:{},
+      loading:true,
+      color:this.getRandomColor()
     }
   }
   componentWillMount(){
     document.title="Flash Cards"
     const currentCards = this.state.cards;
     this.database.on('child_added', snap => {
-      console.log(1);
       currentCards.push({
         id: snap.key,
         word: snap.val().word,
@@ -35,7 +36,8 @@ class App extends Component {
       this.setState({
         cards: currentCards,
         currentCard: this.getRandomCard(currentCards),
-        flipped: false
+        flipped: false,
+        loading:false,
       });
     },
   err=>{
@@ -80,7 +82,8 @@ class App extends Component {
     const currentCards=this.state.cards;
     this.setState({
       currentCard: this.getRandomCard(currentCards),
-      flipped: false
+      flipped: false,
+      color:this.getRandomColor()
     })
   }
   toggleCard(){
@@ -92,7 +95,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container">
-          <Card toggleCard={this.toggleCard} flipped={this.state.flipped} word={this.state.currentCard.word} meaning={this.state.currentCard.meaning} example={this.state.currentCard.example} color={this.getRandomColor()}/>
+          <Card loading = {this.state.loading} toggleCard={this.toggleCard} flipped={this.state.flipped} word={this.state.currentCard.word} meaning={this.state.currentCard.meaning} example={this.state.currentCard.example} color={this.state.color}/>
         </div>
         <div className="buttonRow">
           <DrawButton drawCard={this.updateCard}/>
