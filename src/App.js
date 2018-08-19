@@ -13,6 +13,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.updateCard = this.updateCard.bind(this);
+    this.toggleCard = this.toggleCard.bind(this);    
     this.app = !firebase.apps.length ? firebase.initializeApp(DB_CONFIG) : firebase.app();
     this.database = this.app.database().ref().child('cards'); 
     this.state={
@@ -33,7 +34,8 @@ class App extends Component {
       });
       this.setState({
         cards: currentCards,
-        currentCard: this.getRandomCard(currentCards)
+        currentCard: this.getRandomCard(currentCards),
+        flipped: false
       });
     },
   err=>{
@@ -77,17 +79,20 @@ class App extends Component {
   updateCard(){
     const currentCards=this.state.cards;
     this.setState({
-      currentCard: this.getRandomCard(currentCards)
+      currentCard: this.getRandomCard(currentCards),
+      flipped: false
     })
   }
-  toggleClass(){
-    
+  toggleCard(){
+    const currentState = this.state.flipped;
+    this.setState({ flipped: !currentState });
   }
+  
   render() {    
     return (
       <div className="App">
         <div className="container">
-          <Card word={this.state.currentCard.word} meaning={this.state.currentCard.meaning} example={this.state.currentCard.example} color={this.getRandomColor()}/>
+          <Card toggleCard={this.toggleCard} flipped={this.state.flipped} word={this.state.currentCard.word} meaning={this.state.currentCard.meaning} example={this.state.currentCard.example} color={this.getRandomColor()}/>
         </div>
         <div className="buttonRow">
           <DrawButton drawCard={this.updateCard}/>
