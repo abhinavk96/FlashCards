@@ -68,7 +68,7 @@ body {
     margin: 10px;
     float: left;
     cursor: pointer;
-    box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+    box-shadow: 8px 8px 25px 0 rgba(46,61,73,.2);
     border-radius: .375rem;
   }
   .flip-container .flippable {
