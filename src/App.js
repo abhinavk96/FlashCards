@@ -80,6 +80,9 @@ class App extends Component {
       currentCard: this.getRandomCard(currentCards)
     })
   }
+  toggleClass(){
+    
+  }
   render() {    
     return (
       <div className="App">

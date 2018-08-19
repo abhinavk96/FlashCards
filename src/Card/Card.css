@@ -67,21 +67,30 @@ body {
     perspective: 1000px;
     margin: 10px;
     float: left;
-    cursor: pointer;
     box-shadow: 8px 8px 25px 0 rgba(46,61,73,.2);
     border-radius: .375rem;
+    cursor: grab;
   }
   .flip-container .flippable {
     transition: 0.5s;
     transform-style: preserve-3d;
     position: relative;
   }
-  .flip-container:hover .flippable,
-  .flip-container .hover .flippable {
+  /* .flip-container:hover .flippable {
+    transform: rotateY(180deg);
+    box-shadow: none;
+    
+  } */
+  .flip-container.flipped .flippable {
     transform: rotateY(180deg);
     box-shadow: none;
     
   }
+  /* .flip-container:hover .flippable {
+    transform: rotateY(180deg);
+    box-shadow: none;
+    
+  } */
   .flip-container,
   .front,
   .back {
