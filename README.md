@@ -16,6 +16,9 @@ Just click on a card to find the meaning of the word on it, accompanied by an ex
 
 ## How to run
 
+### Netlify
+The app is live on [netlify](https://gre-flash-cards.netlify.com/).
+
 ### Using the heroku deployment
 The app is live on [heroku](https://flashcards-gre.herokuapp.com/).
 
