@@ -83,7 +83,114 @@
             "word": "Pellucid",
             "meaning": "very clear and shining; very clear in meaning and easy to understand",
             "example": "the pellucid light of a spring morning."
+        },
+        {
+            "id": "15",
+            "word": "Corroborate",
+            "meaning": "confirm or give support to; add information to an idea",
+            "example": "Recent research seems to corroborate the theory."
+        },
+        {
+            "id": "16",
+            "word": "Magnanimous",
+            "meaning": "very kind and generous towards someone you have defeated; forgiving",
+            "example": "The team's manager was magnanimous in victory, and praised the losing team."
+        },
+        {
+            "id": "17",
+            "word": "Scrupulous",
+            "meaning": "diligent; thorough; honest; extremely careful",
+            "example": "The nurse told him to be scrupulous about keeping the wound clean."
+        },
+        {
+            "id": "18",
+            "word": "Prolific",
+            "meaning": "producing a great number or amount of something; fruitful",
+            "example": "Harada has been prolific, releasing more than 70 singles."
+        },
+        {
+            "id": "19",
+            "word": "Dogmatic",
+            "meaning": "opinionated; strongly expressing your beliefs as if they were facts;",
+            "example": "If you are dogmatic, you are certain that you are right and that everyone else is wrong."
+        },
+        {
+            "id": "20",
+            "word": "Placate",
+            "meaning": "to stop someone from feeling angry or hostile.",
+            "example": "Outraged minority groups will not be placated by promises of future improvements."
+        },
+        {
+            "id": "21",
+            "word": "Mercurial",
+            "meaning": "changing suddenly and often; temperamental",
+            "example": "She was entertaining but unpredictable, with mercurial mood swings."
+        },
+        {
+            "id": "22",
+            "word": "Exacerbate",
+            "meaning": "make something already bad, worse; infuriate;",
+            "example": "This attack will exacerbate the already tense relations between the two communities."
+        },
+        {
+            "id": "23",
+            "word": "Redundant",
+            "meaning": "unnecessary because it is more than is needed; superfluous",
+            "example": "In the sentence \"She is a single unmarried woman\", the word \"unmarried\" is redundant."
+        },
+        {
+            "id": "24",
+            "word": "Hackneyed",
+            "meaning": "Unoriginal; Trite; Tedious and uninspiring",
+            "example": "The plot of the film is just a hackneyed boy-meets-girl scenario."
+        },
+        {
+            "id": "25",
+            "word": "Prudent",
+            "meaning": "careful and avoiding risks; showing care and thought",
+            "example": "It's always prudent to read a contract carefully before signing it."
+        },
+        {
+            "id": "26",
+            "word": "Belie",
+            "meaning": "to show something to be false, or to hide something such as an emotion.",
+            "example": "Her calm face belied the terror she was feeling."
+        },
+        {
+            "id": "27",
+            "word": "Esoteric",
+            "meaning": "intended for or understood by only a few people who have special knowledge; obscure",
+            "example": "Literary readings can sometimes seem esoteric, but we are trying to make them more attractive to more people."
+        },
+        {
+            "id": "28",
+            "word": "Cacophony",
+            "meaning": "an unpleasant mixture of loud sounds",
+            "example": "The cacophony surrounding the multi-billion dollar buyout of leading messaging service by a social networking company shook the whole tech industry."
+        },
+        {
+            "id": "29",
+            "word": "Impetuous",
+            "meaning": "likely to do something suddenly, without considering the results of your actions",
+            "example": "He's so impetuous - why can't he think things over before he rushes into them?"
+        },
+        {
+            "id": "30",
+            "word": "Idiosyncrasy",
+            "meaning": "a strange or unusual habit, way of behaving, or feature",
+            "example": "One of the idiosyncrasies of this printer is that you can't stop it once it has started."
+        },
+        {
+            "id": "31",
+            "word": "Extant",
+            "meaning": "used to refer to something very old that is still existing",
+            "example": "Phyllis Wheatley is the author of the earliest extant volume of poetry by an African American."
+        },
+        {
+            "id": "32",
+            "word": "Obscure",
+            "meaning": "not clear and difficult to understand or see; not known to many people",
+            "example": "Official policy has changed, for reasons that remain obscure."
         }
-        
     ]
 }
