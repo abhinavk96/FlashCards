@@ -332,3 +332,7 @@ body {
 
     
   }
+
+  .loader {
+    width: 10vh;
+  }

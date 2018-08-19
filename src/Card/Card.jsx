@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import loader from './loading.svg';
 import './Card.css';
 
 class Card extends Component{ 
@@ -12,7 +13,7 @@ class Card extends Component{
             <div className={"flip-container"}>
                     <div className={"flippable " + this.props.color} >
                         <div className="front">
-                            <div className="word">Loading</div>
+                            <div className="word"><img className="loader" src={loader}/></div>
                         </div>
                     </div>
             </div>
