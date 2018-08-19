@@ -1,19 +1,19 @@
 {
     "cards": [
         {
-            "id": 1,
+            "id": "1",
             "word": "Laconic",
             "meaning" : "Brief and to the point; Effectively cut short.",
             "example": "Jessica is so talkative that her sister thought the situation warrated conciseness and her being laconic."
         },
         {
-            "id" : 2,
+            "id" : "2",
             "word": "Insipid",
             "meaning": "Lacking taste or flavor",
             "example": "Too much sugar makes this otherwise delightful fruit pie insipid."
         },
         {
-            "id" : 3,
+            "id" : "3",
             "word": "Pragmatic",
             "meaning": "Concerned with practical matters",
             "example":"After five years of war, both sides have found pragmatic ways to make peace with one another, as the bloodshed has grown viscous and brutal."
@@ -191,6 +191,54 @@
             "word": "Obscure",
             "meaning": "not clear and difficult to understand or see; not known to many people",
             "example": "Official policy has changed, for reasons that remain obscure."
+        },
+        {
+            "id": "33",
+            "word": "Didactic",
+            "meaning": "intended to teach, especially in a way that is too determined or eager, and often fixed and unwilling to change",
+            "example": "Children’s books possess a practical, didactic purpose – to instill a love for reading."
+        },
+        {
+            "id": "34",
+            "word": "Pithy",
+            "meaning": "brief; to the point;  expressing an idea cleverly in a few words.",
+            "example": "He was considered a superb and pithy writer."
+        },
+        {
+            "id": "35",
+            "word": "Copious",
+            "meaning": "in large amounts, or more than enough",
+            "example": "He took copious notes during the lecture."
+        },
+        {
+            "id": "36",
+            "word": "Ostentation",
+            "meaning": "a vulgar show of wealth, possessions, or power intended to attract admiration or notice; show-off",
+            "example": "Her luxurious lifestyle and personal ostentation were both hated and envied."
+        },
+        {
+            "id": "37",
+            "word": "Adulterate",
+            "meaning": "alter or debase often for profit; to make something weaker or of worse quality by adding something else to it",
+            "example": "Saffron is very expensive, and is often adulterated with other plants."
+        },
+        {
+            "id": "38",
+            "word": "Vociferous",
+            "meaning": "loud and clamorous",
+            "example": "Local activist groups have become increasingly vociferous as the volume of traffic passing through the village has increased."
+        },
+        {
+            "id": "39",
+            "word": "Taciturn",
+            "meaning": "tending not to speak much; reserved; uncommunicative in speech",
+            "example": "He was always quiet, reserved, and taciturn."
+        },
+        {
+            "id": "40",
+            "word": "Obdurate",
+            "meaning": "extremely determined to act in a particular way and not to change despite what anyone else says; stubborn",
+            "example": "Union leaders remain obdurate that working conditions and pay improve."
         }
     ]
 }
