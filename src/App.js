@@ -45,44 +45,33 @@ class App extends Component {
     return currentCards[Math.floor(Math.random()*currentCards.length)]
   }
   getRandomColor(){
-    let colorCode = Math.floor(Math.random()*10)%10;
+    let colorCode = Math.floor(Math.random()*100)%20;
     let name;
-    switch(colorCode){
-      case 0:
-      name="one";
-      break;
-      case 1:
-      name="two";
-      break;
-      case 2:
-      name="three";
-      break;
-      case 3:
-      name="four";
-      break;
-      case 4:
-      name="five";
-      break;
-      case 5:
-      name="six";
-      break;
-      case 6:
-      name="seven";
-      break;
-      case 7:
-      name="eight";
-      break;
-      case 8:
-      name="nine";
-      break;
-      case 9:
-      name="ten"
-      break;
-      default:
-      name="one";
-      break;
+    var colorDict =
+    {
+      0: "zero",
+      1: "one",
+      2: "two",
+      3: "three",
+      4: "four",
+      5: "five",
+      6: "six",
+      7: "seven",
+      8: "eight",
+      9: "nine",
+      10: "ten",
+      11: "eleven",
+      12: "twelve",
+      13: "thirteen",
+      14: "fourteen",
+      15: "fifteen",
+      16: "sixteen",
+      17: "seventeen",
+      18: "eighteen",
+      19: "nineteen", 
+      20: "twenty"
     }
-    return name;
+    return colorDict[colorCode];
 
   }
   updateCard(){
