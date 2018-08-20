@@ -239,6 +239,128 @@
             "word": "Obdurate",
             "meaning": "extremely determined to act in a particular way and not to change despite what anyone else says; stubborn",
             "example": "Union leaders remain obdurate that working conditions and pay improve."
+        },
+        {
+            "id": "41",
+            "word": "Garrulous",
+            "meaning": "excessively talkative; having the habit of talking a lot, especially about things that are not important",
+            "example": "I had talked too much about myself and felt like a garrulous old fool."
+        },
+        {
+            "id": "42",
+            "word": "Misanthrope",
+            "meaning": "someone who dislikes or hates and avoids other people",
+            "example": "He is a hard-cursing, chain-smoking misanthrope who formerly worked on a children's television programme."
+        },
+        {
+            "id": "43",
+            "word": "Lionize",
+            "meaning": "to make someone famous, or to treat someone as if they were famous",
+            "example": "During her reign he was much lionized as a military hero of incredible valor."
+        },
+        {
+            "id": "44",
+            "word": "Imminent",
+            "meaning": "about to happen",
+            "example": "He gave a dire warning that an earthquake was imminent."
+        },
+        {
+            "id": "45",
+            "word": "Deride",
+            "meaning": "to laugh at someone or something in a way that shows you think they are stupid or of no value; insult",
+            "example": "This building, once derided by critics, is now a major tourist attraction."
+        },
+        {
+            "id": "46",
+            "word": "Lethargic",
+            "meaning": "lazy; sluggish;  feeling unwilling and unable to do anything",
+            "example": "He was found to be pale, thin, wasted and lethargic, with slow and confused answers, according to the hospital's discharge summary."
+        },
+        {
+            "id": "47",
+            "word": "Inchoate",
+            "meaning": "only recently or partly formed, or not completely developed or clear; undeveloped;",
+            "example": "He is easily intimidated when the left condemns this vague, inchoate mixture of family loyalty and patriotism as the bigotry of the extreme right."
+        },
+        {
+            "id": "48",
+            "word": "Profound",
+            "meaning": "felt or experienced very strongly or in an extreme way; thoughtful",
+            "example": "The invention of the contraceptive pill brought about profound changes in the lives of women."
+        },
+        {
+            "id": "49",
+            "word": "Pedant",
+            "meaning": "a person who is too interested in formal rules and small details that are not important",
+            "example": "Harrison is a pedant who would rather waste his time bickering than letting trivial things go."
+        },
+        {
+            "id": "50",
+            "word": "Euphoric",
+            "meaning": "extreme happiness, sometimes more than is reasonable in a particular situation",
+            "example": "The cricket team players where euphoric after their world cup victory."
+        },
+        {
+            "id": "51",
+            "word": "Euphoric",
+            "meaning": "something that is mysterious and seems impossible or difficult to understand completely",
+            "example": "The newspapers were full of stories about the enigma of the plane's disappearance."
+        },
+        {
+            "id": "52",
+            "word": "Ambivalent",
+            "meaning": "having two opposing feelings at the same time, or being uncertain about how you feel; conflicting",
+            "example": "I felt very ambivalent about leaving home."
+        },
+        {
+            "id": "53",
+            "word": "Vacillate",
+            "meaning": "to be uncertain what to do, or to change often between two opinions; be indecisive",
+            "example": "Her mood vacillated between hope and despair."
+        },
+        {
+            "id": "54",
+            "word": "Pusillanimous",
+            "meaning": "​weak and cowardly (= not brave); frightened of taking risks; fearful;",
+            "example": "He's too pusillanimous to stand up to his opponents."
+        },
+        {
+            "id": "55",
+            "word": "Ephemeral",
+            "meaning": "​lasting for only a short time; momentary; passing",
+            "example": "Fame in the world of rock and pop is largely ephemeral."
+        },
+        {
+            "id": "56",
+            "word": "Recalcitrant",
+            "meaning": "​(of a person) unwilling to obey orders or to do what should be done, or (of an animal) refusing to be controlled",
+            "example": "Tenants petitioned their recalcitrant landlord to finish repairs to their building."
+        },
+        {
+            "id": "57",
+            "word": "Fastidious",
+            "meaning": "​giving too much attention to small details and wanting everything to be correct and perfect;​",
+            "having": {},
+            "example": "He is very fastidious about how a suitcase should be packed."
+        },
+        {
+            "id": "58",
+            "word": "Superfluous",
+            "meaning": "​ more than is needed or wanted; unnecessary",
+            "having": {},
+            "example": "The report was marred by a mass of superfluous detail."
+        },
+        {
+            "id": "59",
+            "word": "Inimical",
+            "meaning": "​harmful; limiting",
+            "example": "Excessive managerial control is inimical to creative expression."
+        },
+        {
+            "id": "60",
+            "word": "Equivocate",
+            "meaning": "​to speak in a way that is intentionally not clear and confusing to other people, especially to hide the truth",
+            "example": "She accused the minister of equivocating, claiming that he had deliberately avoided telling the public how bad the problem really was."
         }
     ]
 }
