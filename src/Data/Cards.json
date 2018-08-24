@@ -397,6 +397,181 @@
             "word": "Enervate",
             "meaning": "​to make someone feel weak and without energy; wear out",
             "example": "Even educational establishments are suspect on the ground—not unnatural after his own experience of Oxford—that their possibilities of comfort may enervate the natural energies of men."
+        },
+        {
+            "id": "67",
+            "word": "Fervid",
+            "meaning": "passionate; intensely enthusiastic",
+            "example": "They hurled fervid accusations at each other during the debate."
+        },
+        {
+            "id": "68",
+            "word": "Reticent",
+            "meaning": "secretive; unwilling to speak about your thoughts or feelings",
+            "example": "He is very reticent about his past."
+        },
+        {
+            "id": "69",
+            "word": "Tumultuous",
+            "meaning": "confused; disorderly;",
+            "example": "The crowd at the concert was tumultuous, and went berserk."
+        },
+        {
+            "id": "70",
+            "word": "Audacious",
+            "meaning": "showing a willingness to take risks or offend people; reckless; daring",
+            "example": "The car maker's audacious goal is to compete with the luxury cars of other manufacturers."
+        },
+        {
+            "id": "71",
+            "word": "Innocuous",
+            "meaning": "completely harmless (= causing no harm); inoffensive",
+            "example": "Some mushrooms look innocuous but are in fact poisonous."
+        },
+        {
+            "id": "72",
+            "word": "Advocate",
+            "meaning": "to publicly support or suggest an idea, development, or way of doing something",
+            "example": "She advocates taking a more long-term view."
+        },
+        {
+            "id": "73",
+            "word": "Trivial",
+            "meaning": "having little value or importance;",
+            "example": "I don't know why he gets so upset about something so trivial."
+        },
+        {
+            "id": "74",
+            "word": "Anachronism",
+            "meaning": "a person, thing, or idea that exists out of its time in history, especially one that happened or existed later than the period being shown, discussed, etc.",
+            "example": "For some people, marriage is an anachronism from the days when women needed to be protected"
+        },
+        {
+            "id": "75",
+            "word": "Bolster",
+            "meaning": "to support or improve something or make it stronger; strengthen",
+            "example": "More money is needed to bolster the industry."
+        },
+        {
+            "id": "76",
+            "word": "Erudite",
+            "meaning": "having or containing a lot of knowledge that is known by very few people; well educated; cultured",
+            "example": "He's the author of an erudite book on Scottish history."
+        },
+        {
+            "id": "77",
+            "word": "Meticulous",
+            "meaning": "very careful and with great attention to every detail",
+            "example": "Many hours of meticulous preparation have gone into writing the book."
+        },
+        {
+            "id": "78",
+            "word": "Ingenious",
+            "meaning": "very intelligent and skilful, or skilfully made or planned and involving new ideas and methods; original; inventive",
+            "example": "Johnny is so ingenious - he can make the most remarkable sculptures from the most ordinary materials."
+        },
+        {
+            "id": "79",
+            "word": "Succinct",
+            "meaning": "said in a clear and short way; expressing what needs to be said without unnecessary words",
+            "example": "Keep your letter succinct and to the point."
+        },
+        {
+            "id": "80",
+            "word": "Trite",
+            "meaning": "expressed too often to be interesting or seem sincere; silly; commonplace",
+            "example": "I know it will sound trite, but I've loved being part of this club."
+        },
+        {
+            "id": "81",
+            "word": "Venerate",
+            "meaning": "to honour or very much respect a person or thing",
+            "example": "Many families had a special saint they used to venerate."
+        },
+        {
+            "id": "82",
+            "word": "Sanguine",
+            "meaning": "positive and hoping for good things; optimistic; red",
+            "example": "They are less sanguine about the prospects for peace."
+        },
+        {
+            "id": "83",
+            "word": "Plausible",
+            "meaning": "seeming likely to be true, or able to be believed",
+            "example": "a plausible explanation/excuse"
+        },
+        {
+            "id": "84",
+            "word": "Disparate",
+            "meaning": "​different in every way",
+            "example": "The two cultures were so utterly disparate that she found it hard to adapt from one to the other."
+        },
+        {
+            "id": "85",
+            "word": "Malign",
+            "meaning": "​causing or intending to cause harm or evil; evil itself",
+            "example": "Foreign domination had a malign influence on local politics."
+        },
+        {
+            "id": "86",
+            "word": "Fractious",
+            "meaning": "tending to argue, fight, or complain, and hard to control; quarrelsome; irritable",
+            "example": "The fractious nature of politics"
+        },
+        {
+            "id": "87",
+            "word": "Diffidence",
+            "meaning": "the quality of being shy and not confident of your abilities; hesistance",
+            "example": "He spoke with a certain diffidence which added to his charm"
+        },
+        {
+            "id": "88",
+            "word": "Providential",
+            "meaning": "happening exactly when needed but without being planned;",
+            "example": "Therefore, it is providential that this vast and powerful new form of energy has arrived just at this moment."
+        },
+        {
+            "id": "89",
+            "word": "Dispassionate",
+            "meaning": "able to think clearly or make good decisions because of not being influenced by emotions; unfeeling",
+            "example": "In all the media hysteria, there was one journalist whose comments were clear-sighted and dispassionate."
+        },
+        {
+            "id": "90",
+            "word": "Belligerent",
+            "meaning": "hostile; aggressive;",
+            "example": "The belligerent countries are having difficulties funding the war."
+        },
+        {
+            "id": "91",
+            "word": "Eulogy",
+            "meaning": "a speech, piece of writing, poem, etc. containing great praise, especially for someone who recently died or retired from work",
+            "example": "The song was a eulogy to the joys of travelling."
+        },
+        {
+            "id": "92",
+            "word": "​Gainsay",
+            "meaning": "to refuse to accept something as the truth; deny; contradict",
+            "example": "Certainly there's no gainsaying (= it is not possible to doubt) the technical brilliance of his performance."
+        },
+        {
+            "id": "93",
+            "word": "​Chicanery",
+            "meaning": "clever, dishonest talk or behaviour that is used to deceive people; deception; trickery",
+            "example": "The investigation revealed political chicanery and corruption at the highest levels."
+        },
+        {
+            "id": "94",
+            "word": "​Prevaricate",
+            "meaning": "to avoid telling the truth or saying exactly what you think; deceive; stretch the truth",
+            "example": "Aron does not take bad news well and hence her brother always prevaricates when telling her something she does not want to hear."
+        },
+        {
+            "id": "95",
+            "word": "​Sporadic",
+            "meaning": "happening sometimes; not regular or continuous; scattered or isolated",
+            "example": "The gunfire was sporadic."
         }
+
     ]
 }
