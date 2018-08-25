@@ -302,7 +302,7 @@
         },
         {
             "id": "51",
-            "word": "Euphoric",
+            "word": "Enigma",
             "meaning": "something that is mysterious and seems impossible or difficult to understand completely",
             "example": "The newspapers were full of stories about the enigma of the plane's disappearance."
         },
@@ -571,7 +571,42 @@
             "word": "​Sporadic",
             "meaning": "happening sometimes; not regular or continuous; scattered or isolated",
             "example": "The gunfire was sporadic."
-        }
-
+        },
+        {
+            "id": "96",
+            "word": "​Docile",
+            "meaning": "quiet and easy to influence, persuade, or control; submissive; compliant",
+            "example": "The once docile population has finally risen up against the ruthless regime."
+        },
+        {
+            "id": "97",
+            "word": "​Inculpate",
+            "meaning": "accuse or blame",
+            "example": "he blamed himself, but also inculpated his fiancée"
+        },
+        {
+            "id": "98",
+            "word": "​Dissonance",
+            "meaning": "disagreement;  a combination of sounds or musical notes that are not pleasant when heard together",
+            "example": "Historical interpretations exist in groups, and sometimes support each other for reasons of social function despite apparent methodological dissonances."
+        },
+        {
+            "id": "99",
+            "word": "​Benign",
+            "meaning": "pleasant and kind; gentle",
+            "example": "His humour was benign, never cruel or hurtful."
+        },
+        {
+            "id": "100",
+            "word": "​Frivolous",
+            "meaning": "behaving in a silly way and not taking anything seriously",
+            "example": "With our justice system there are a lot of frivolous cases that go to court."
+        },
+        {
+            "id": "101",
+            "word": "​Conspicious",
+            "meaning": "very noticeable or attracting attention, often in a way that is not wanted; obvious",
+            "example": "He tried not to look conspicuous and moved slowly along the back of the room."
+          }
     ]
 }
