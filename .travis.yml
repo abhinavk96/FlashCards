@@ -12,5 +12,9 @@ script:
 #   skip_cleanup: true
 #   domain: <my_name_here>.surge.sh
 #   project: ./build/
+after_script:
+  - npm run coveralls
 on:
   branch: master
+
+  
