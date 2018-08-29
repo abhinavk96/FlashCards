@@ -10,7 +10,7 @@ class Card extends Component{
             <div className={"flip-container"}>
                     <div className={"flippable " + this.props.color} >
                         <div className="front">
-                            <div className="word"><img className="loader" src={loader}/></div>
+                            <div className="word"><img className="loader" src={loader} alt="Loading.." /></div>
                         </div>
                     </div>
             </div>
