@@ -1,7 +1,9 @@
 # Flash Cards  
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
-[![Coverage Status](https://coveralls.io/repos/github/CosmicCoder96/FlashCards/badge.svg?style=flat-square,branch=master)](https://coveralls.io/github/CosmicCoder96/FlashCards?branch=master)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+[![Coverage Status](https://coveralls.io/repos/github/CosmicCoder96/FlashCards/badge.svg?branch=master)](https://coveralls.io/github/CosmicCoder96/FlashCards?branch=master)
 [![Build Status](https://travis-ci.com/CosmicCoder96/FlashCards.svg?branch=master)](https://travis-ci.com/CosmicCoder96/FlashCards)
+
+
 A minimal react app which helps you prepare for GRE by improving your vocabulary.
 
 It uses soothing, and aesthetically pleasing color combinations present in nature [(thanks canva!)](https://www.canva.com/learn/100-color-combinations/) to improve concenteration, and is redundatly minimal to immerse the user and divert all the focus on the words. A modern twist on the age old tradition of using physcial flash cards to learn words.
