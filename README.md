@@ -1,6 +1,6 @@
 # Flash Cards  
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
-
+[![Coverage Status](https://coveralls.io/repos/github/CosmicCoder96/FlashCards/badge.svg?branch=master)](https://coveralls.io/github/CosmicCoder96/FlashCards?branch=master)
 
 A minimal react app which helps you prepare for GRE by improving your vocabulary.
 
