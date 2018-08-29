@@ -13,7 +13,7 @@ class DrawButton extends Component {
     render(props) {
         return(
             <div className="buttonContainer">
-                <a href="#" className="btn red" onClick={this.drawCard}>Draw Card</a>
+                <button  className="btn red" onClick={this.drawCard}>Draw Card</button>
             </div>
         )
     }

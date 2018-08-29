@@ -1,5 +1,4 @@
 .btn {
-    border-radius: 5px;
     padding: 15px 25px;
     font-size: 22px;
     text-decoration: none;
@@ -7,6 +6,8 @@
     color: #fff;
     position: relative;
     display: inline-block;
+    border:none;
+    border-radius: 5px;    
   }
   
   .btn:active {
