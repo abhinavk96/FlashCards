@@ -3,9 +3,6 @@ import loader from './loading.svg';
 import './Card.css';
 
 class Card extends Component{ 
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         if (this.props.loading) {
