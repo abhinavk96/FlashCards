@@ -1,4 +1,7 @@
-# Flash Cards
+# Flash Cards  
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
+
+
 A minimal react app which helps you prepare for GRE by improving your vocabulary.
 
 It uses soothing, and aesthetically pleasing color combinations present in nature [(thanks canva!)](https://www.canva.com/learn/100-color-combinations/) to improve concenteration, and is redundatly minimal to immerse the user and divert all the focus on the words. A modern twist on the age old tradition of using physcial flash cards to learn words.
