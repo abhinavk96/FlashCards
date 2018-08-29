@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import Card from './Card/Card';
 import DrawButton from './DrawButton/DrawButton';
 import './App.css';
 import { DB_CONFIG } from './Config/Firebase/db_config';
 import firebase from 'firebase/app';
 import 'firebase/database';
-import {init as firebaseInit} from 'firebase/firebase';
 
 
 class App extends Component {
@@ -50,7 +48,6 @@ class App extends Component {
   }
   getRandomColor(){
     let colorCode = Math.floor(Math.random()*100)%20;
-    let name;
     var colorDict =
     {
       0: "zero",
