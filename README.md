@@ -34,5 +34,5 @@ The app is live on [heroku](https://flashcards-gre.herokuapp.com/).
 * All set! Browse at `localhost:3000`.
 
 ## Contributing
-* Fancy reactjs ? Feel free to send a PR to improve anything.
+* Fancy react.js ? Feel free to send a PR to improve anything.
 * A vocabulary genius? Help others! The words are retrieved using a `firebase` database but a static list is maintained inside `src/Data/Cards.json`. Feel free to add more words to it!
