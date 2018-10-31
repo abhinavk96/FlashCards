@@ -14,6 +14,8 @@ class App extends Component {
     this.toggleCard = this.toggleCard.bind(this);    
     this.app = !firebase.apps.length ? firebase.initializeApp(DB_CONFIG) : firebase.app();
     this.database = this.app.database().ref().child('cards'); 
+    this.simulateClick = React.createRef()    
+    this.flipCard = React.createRef()
     this.handleKeyPress = this.handleKeyPress.bind(this);
     this.state={
       cards:[],
@@ -25,14 +27,15 @@ class App extends Component {
 
   handleKeyPress(event){
     if(event.key === 'Enter') {
-        console.log('Flip Card!');
+      console.log('Flip Card!');
+      console.log(this.simulateClick.current.click())           
     }
     if(event.key === ' ')
     {
       console.log('Draw card!')
+      console.log(this.flipCard.current.click())   
     }
  }
-
   componentWillMount(){
     document.title="Flash Cards"
     const currentCards = this.state.cards;
@@ -108,10 +111,10 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container">
-          <Card loading = {this.state.loading} toggleCard={this.toggleCard} flipped={this.state.flipped} word={this.state.currentCard.word} meaning={this.state.currentCard.meaning} example={this.state.currentCard.example} color={this.state.color}/>
+          <Card backref={this.flipCard} loading = {this.state.loading} toggleCard={this.toggleCard} flipped={this.state.flipped} word={this.state.currentCard.word} meaning={this.state.currentCard.meaning} example={this.state.currentCard.example} color={this.state.color}/>
         </div>
         <div className="buttonRow">
-          <DrawButton drawCard={this.updateCard}/>
+          <DrawButton backref={this.simulateClick} drawCard={this.updateCard}/>
         </div>
       <a href="https://github.com/CosmicCoder96/FlashCards" className="github-corner" aria-label="View source on Github">
    <svg width="80" height="80" viewBox="0 0 250 250" className="github" aria-hidden="true">

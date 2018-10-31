@@ -10,11 +10,11 @@ class DrawButton extends Component {
     drawCard() {
         this.props.drawCard();
     }
-    
+
     render(props) {
         return(
             <div className="buttonContainer">
-                <button  className="btn red" onClick={this.drawCard}>Draw Card</button>
+                <button  className="btn red" ref={this.props.backref} onClick={this.drawCard}>Draw Card</button>
             </div>
         )
     }

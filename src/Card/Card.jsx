@@ -17,7 +17,7 @@ class Card extends Component{
             )
         }
         return(
-        <div className={"flip-container" + (this.props.flipped ? " flipped": "")} onClick={this.props.toggleCard}>
+        <div className={"flip-container" + (this.props.flipped ? " flipped": "")} onClick={this.props.toggleCard} ref={this.props.backref}>
                 <div className={"flippable " + this.props.color} >
                     <div className="front">
                         <div className="word">{this.props.word}</div>
