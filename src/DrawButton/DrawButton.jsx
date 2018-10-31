@@ -10,6 +10,7 @@ class DrawButton extends Component {
     drawCard() {
         this.props.drawCard();
     }
+    
     render(props) {
         return(
             <div className="buttonContainer">
