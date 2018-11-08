@@ -727,6 +727,12 @@
             "word": "Subvert",
             "meaning": "to try to destroy or damage something",
             "example": "The rebel army is attempting to subvert the government."
+        },
+        {
+            "id": "122",
+            "word": "Retroactively",
+            "meaning": "(of a law or decision) in a way that affects a date before it was approved",
+            "example": "The courts cannot apply a new rule retroactively"
         }
     ]
 }
