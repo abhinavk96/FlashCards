@@ -733,6 +733,12 @@
             "word": "Retroactively",
             "meaning": "(of a law or decision) in a way that affects a date before it was approved",
             "example": "The courts cannot apply a new rule retroactively"
+        },
+        {
+            "id": "123",
+            "word": "Spasmodically",
+            "meaning": "Irregularly; happens suddenly in short bursts.",
+            "example": "He made spasmodic attempts to clean up the house."
         }
     ]
 }
