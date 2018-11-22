@@ -811,6 +811,12 @@
             "word": "Craven",
             "meaning": "Extremely cowardly; not brave",
             "example": "The heckler acted cravenly after being identified."
+        },
+        {
+            "id": "136",
+            "word": "Insolvent",
+            "meaning": "(especially of a company) not having enough money to pay debts, buy goods, etc.",
+            "example": "The firm was about to become insolvent, by the time the new CEO stepped in."
         }
     ]
 }
