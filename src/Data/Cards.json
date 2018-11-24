@@ -901,6 +901,12 @@
             "word": "Aesthete",
             "meaning": "a person who understands and enjoys beauty; appreciates art",
             "example": "The ugliness of the city would make an aesthete like you shudder."
+        },
+        {
+            "id": "151",
+            "word": "Inquisitor",
+            "meaning": "a person making an inquiry, especially one seen to be excessively harsh or searching.",
+            "example": "The professional inquisitors of the press"
         }
     ]
 }
