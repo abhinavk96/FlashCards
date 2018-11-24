@@ -883,6 +883,12 @@
             "word": "Operatic",
             "meaning": "extravagantly theatrical; relating to opera",
             "example": "she wrung her hands in operatic despair"
+        },
+        {
+            "id": "148",
+            "word": "Countermand",
+            "meaning": "to change an order that has already been given, especially by giving a new order",
+            "example": "As your superior, I countermanded that will!"
         }
     ]
 }
