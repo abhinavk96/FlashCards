@@ -997,6 +997,12 @@
             "word": "Apothegm",
             "meaning": "a short clever saying that is intended to express a general truth",
             "example": "We are all familiar with Tolstoy's apothegm: \"Happy families are all alike; every unhappy family is unhappy in its own way.\""
+        },
+        {
+            "id": "167",
+            "word": "Punctilious",
+            "meaning": "very careful to behave correctly or to give attention to details",
+            "example": "He was always punctilious in his manners."
         }
     ]
 }
