@@ -991,6 +991,12 @@
             "word": "Epigram",
             "meaning": "a short saying or poem that expresses an idea in an amusing way",
             "example": "One of Oscar Wilde's most frequently quoted epigrams is \"I can resist everything except temptation\"."
+        },
+        {
+            "id": "166",
+            "word": "Apothegm",
+            "meaning": "a short clever saying that is intended to express a general truth",
+            "example": "We are all familiar with Tolstoy's apothegm: \"Happy families are all alike; every unhappy family is unhappy in its own way.\""
         }
     ]
 }
